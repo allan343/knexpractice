@@ -1,7 +1,7 @@
 const ArticlesService = {
 
     getAllArticles() {
-            return 'all the articles!!'
+        return Promise.resolve('all the articles!!')
            }
           }
 
